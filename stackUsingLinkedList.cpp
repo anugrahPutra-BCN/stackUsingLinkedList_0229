@@ -93,3 +93,23 @@ int main()
             cin >> value;
             stact.push(value);
             break;
+         case 2:
+            if (!stact.isEmpty())
+            {
+                stact.pop();
+            }
+            else
+            {
+                cout << "Stact is Empty. Cannot pop." << endl;
+            }
+            break;
+         case 3:
+            if (!stact.isEmpty())
+            {
+                stact.peek();
+            }
+            else
+            {
+                cout << "Stact is Empty. No top value." << endl;
+            }
+            break;
