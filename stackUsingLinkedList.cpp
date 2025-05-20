@@ -45,4 +45,11 @@ public:
         top = top->next;
     }
 
-  
+    void peek()
+    {
+        if (top == NULL)
+        {
+            cout << "List is Empty." << endl;
+        }
+        else
+       
