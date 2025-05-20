@@ -120,3 +120,7 @@ int main()
             cout << "Invalid chooice. try again." << endl;
             break;
         }
+        cout << endl;
+    }
+    return 0;
+}
